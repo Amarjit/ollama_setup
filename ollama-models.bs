@@ -32,7 +32,7 @@ declare -A models=(
   [phi3]="Lightweight LLM"
   [llava]="Vision + language | 📷 Image support"
   [bakllava]="Light multimodal (image+text) | 📷 Image support"
-  [llava-phi]="Smallest image+text model | 📷 Image support"
+  [llava-phi3]="Smallest image+text model | 📷 Image support"
   [dolphin-mixtral]="Advanced reasoning/chat | Mixture of Experts"
 )
 
@@ -48,7 +48,7 @@ declare -A model_vram_reqs=(
   [phi3]=4
   [llava]=12
   [bakllava]=8
-  [llava-phi]=8
+  [llava-phi3]=8
   [dolphin-mixtral]=24
 )
 
